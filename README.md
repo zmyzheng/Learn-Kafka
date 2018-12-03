@@ -1,20 +1,20 @@
-Learn Kafka 
+# Learn Kafka 
 
 
-#kafka-command line
+## kafka-command line
 - 0-start-kafka
 - 1-kafka-cli
 - 2-kafka-topic-configurations
 - annex-1-start-kafka
 
-# kafka-twitter stream to Elasticsearch
+## kafka-twitter stream to Elasticsearch
 - Basics of Kafka
 - Twitter Producer
 - ElasticSearch Consumer
 - Kafka Streams 101
 - Kafka Connect Example
 
-# kafka-ppt
+## kafka-ppt
 - 1-Basis
 - 2-producer
 - 3-consumer
