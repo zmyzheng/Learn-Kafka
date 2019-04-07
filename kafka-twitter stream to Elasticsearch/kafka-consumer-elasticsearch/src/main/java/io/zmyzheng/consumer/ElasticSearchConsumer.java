@@ -97,6 +97,8 @@ public class ElasticSearchConsumer {
         while(true){
             ConsumerRecords<String, String> records =
                     consumer.poll(Duration.ofMillis(100)); // new in Kafka 2.0.0
+//            This method returns immediately if there are records available. Otherwise, it will await the passed timeout.
+//            If the timeout expires, an empty record set will be returned.
 
             Integer recordCount = records.count();
             logger.info("Received " + recordCount + " records");
