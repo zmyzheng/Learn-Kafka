@@ -32,6 +32,13 @@ public class ElasticSearchConsumer {
 
     public static RestHighLevelClient createClient(){
 
+        //////////////////////////
+        /////////// IF YOU USE LOCAL ELASTICSEARCH
+        //////////////////////////
+
+        //  String hostname = "localhost";
+        //  RestClientBuilder builder = RestClient.builder(new HttpHost(hostname,9200,"http"));
+
         // replace with your own credentials
         String hostname = ""; // localhost or bonsai url
         String username = ""; // needed only for bonsai
